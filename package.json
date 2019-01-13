@@ -1,0 +1,21 @@
+{
+  "name": "node-rest-api",
+  "version": "1.0.0",
+  "description": "RESTful API in Node and Express.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "Abylay Tastanbekov",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.0.1",
+    "nodemon": "^1.18.9"
+  }
+}
